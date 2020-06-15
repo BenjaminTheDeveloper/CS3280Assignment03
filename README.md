@@ -1,2 +1,7 @@
-# CS3280Assignment03
-Palindrome Assignment with Unit Testing
+# Palindrome Assignment
+
+TODO
+
+## How to use
+
+TODO
