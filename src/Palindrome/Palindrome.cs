@@ -14,6 +14,16 @@
         /// <returns>If the input is a valid palindrome.</returns>
         public bool IsValid(string input)
         {
+            var reversedInput = ""; 
+                               
+           for(int i = input.Length - 1; i >= 0; i--){
+                reversedInput += input[i];
+            }
+
+            if(reversedInput.Equals(input)){
+                return true; 
+            }
+
             return false;
         }
 

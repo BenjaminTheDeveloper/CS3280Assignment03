@@ -6,7 +6,7 @@ using Xunit;
 
 namespace Palindrome.Tests.Tests
 {
-    [ExcludeFromCodeCoverage]
+   // [ExcludeFromCodeCoverage]
     public class PalindromeTests
     {
         #region Tests

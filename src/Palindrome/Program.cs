@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace Palindrome
 {
-    [ExcludeFromCodeCoverage]
+    //[ExcludeFromCodeCoverage]
     class Program
     {
         #region Fields
@@ -37,6 +37,9 @@ namespace Palindrome
 
                 Console.WriteLine(message);
             }
+
+
+            Console.ReadKey();
         }
 
         #endregion
