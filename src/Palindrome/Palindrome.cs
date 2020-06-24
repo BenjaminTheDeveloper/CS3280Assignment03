@@ -43,7 +43,7 @@ namespace Palindrome
             // Set the new reformed input from string builder into a new variable inputWithNoPuncuation
            inputWithNoPunctuation = sb.ToString().ToLower();
 
-            
+           
            
                                
            for(int i = inputWithNoPunctuation.Length - 1; i >= 0; i--){
