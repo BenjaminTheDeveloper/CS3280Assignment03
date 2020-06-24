@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace Palindrome.Tests.Data
 {
-   // [ExcludeFromCodeCoverage]
+    //[ExcludeFromCodeCoverage]
     public class PalindromeDataSource : IEnumerable<object[]>
     {
         #region Methods

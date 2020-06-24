@@ -6,7 +6,7 @@ using Xunit;
 
 namespace Palindrome.Tests.Tests
 {
-   // [ExcludeFromCodeCoverage]
+   //[ExcludeFromCodeCoverage]
     public class PalindromeTests
     {
         #region Tests
@@ -18,7 +18,7 @@ namespace Palindrome.Tests.Tests
             var fixture = new Fixture().Customize(new AutoMoqCustomization());
 
             var sut = fixture.Create<Palindrome>();
-
+            
             Assert.Equal(expectedResult, sut.IsValid(input));
         }
 
